@@ -1,2 +1,5 @@
 for i in range(1,20+1):
-    print("It works")
+    if i%2==0:
+        print("It works")
+    else:
+        print(i)
